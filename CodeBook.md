@@ -12,7 +12,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
-For more details about the variables - https://github.com/lalquier/ProgrammingAssignment3/README-source.txt 
+For more details about the variables - [source README file](README-source.txt)
 
 #### Citation: 
 
@@ -21,7 +21,7 @@ Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ort
 
 #### Data Dictionary
 
-A full description of variables from the source dataset is included here - https://github.com/lalquier/ProgrammingAssignment3/features-info-source.txt 
+A full description of variables from the source dataset is included [here](features-info-source.txt). 
 
 From these variables, subject ID and calculations of mean and standard deviation were selected to be part of the tidy dataset.
 
