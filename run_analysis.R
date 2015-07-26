@@ -67,7 +67,7 @@ assembleTidyRunData <- function(fileName) {
     # Recast 
     tidyData <- dcast(meltedData, ActivityName + SubjectID ~ variable, mean)    
 
-    write.table(tidyData, fileName)
+    write.table(tidyData, fileName, row.name=FALSE)
 }
 
 # ---------------------------
