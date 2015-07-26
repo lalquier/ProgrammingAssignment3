@@ -21,9 +21,9 @@ Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ort
 
 #### Data Dictionary
 
-A full description of variables from the source dataset is included [here](features-info-source.txt). 
+A full description of variables from the source dataset (with units and methods of calculation) is included [here](features-info-source.txt). 
 
-From these variables, subject ID and calculations of mean and standard deviation were selected to be part of the tidy dataset.
+From these variables, subject ID and calculations of mean and standard deviation were selected to be part of the tidy dataset. The script does not change the original variables except for their heading in the tidy dataset.
 
 To improve readbility:
  
