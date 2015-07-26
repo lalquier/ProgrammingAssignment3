@@ -47,6 +47,8 @@ assembleTidyRunData <- function(fileName) {
     cNames <- colnames(mergedData)
     cNames <- gsub("\\.+mean\\.+", cNames, replacement="Mean")
     cNames <- gsub("\\.+std\\.+",  cNames, replacement="Std")
+    cNames <- gsub("^t",  cNames, replacement="time")
+    cNames <- gsub("^f",  cNames, replacement="freq")
     colnames(mergedData) <- cNames
 
     # Add activity names as another column
