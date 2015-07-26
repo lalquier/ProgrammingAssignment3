@@ -36,5 +36,5 @@ The script will
 * download the data set and unzip it in the './data' directory (if it doesn't exist yet in that directory)
 * install the 'reshape2' package if necessary
 
-The script also assumes the folder structure of the data conforms to the README file copied [here](README-source.txt) from the source data.
+The script also assumes the folder structure of the data conforms to the original README file copied [here](README-source.txt) for reference from the source data.
 
